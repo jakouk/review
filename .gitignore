@@ -1,0 +1,61 @@
+st login: Sun Dec 25 06:58:45 on ttys000
+jakoukui-MacBook-Pro:~ jakouk$ cd Desktop/
+jakoukui-MacBook-Pro:Desktop jakouk$ ls
+CertificateSigningRequest.certSigningRequest
+Navigation
+ObjectitveC
+Practice
+Project
+ProjectOpenSource
+Swift
+SwiftPractice
+TDD_FizzBuzz
+YagomBlog
+christmas.jpg
+gitPractice
+hackerton
+iOS_School_kiminy
+pink.jpg
+review
+swift_yagom
+teamPro
+teamProject
+jakoukui-MacBook-Pro:Desktop jakouk$ cd teamPro
+jakoukui-MacBook-Pro:teamPro jakouk$ ls
+project
+jakoukui-MacBook-Pro:teamPro jakouk$ cd project/
+jakoukui-MacBook-Pro:project jakouk$ ls -al
+total 40
+drwxr-xr-x   7 jakouk  staff   238 12  7 20:41 .
+drwxr-xr-x   4 jakouk  staff   136 12  6 15:19 ..
+-rw-r--r--@  1 jakouk  staff  8196 12  8 17:45 .DS_Store
+drwxr-xr-x  16 jakouk  staff   544 12 22 06:26 .git
+-rw-r--r--   1 jakouk  staff  3449 12  7 20:41 .gitignore
+drwxr-xr-x  13 jakouk  staff   442 12 17 02:17 PictureDiary
+-rw-r--r--   1 jakouk  staff    10 12  5 19:30 README.md
+jakoukui-MacBook-Pro:project jakouk$ vi .gitignore 
+
+
+# Created by https://www.gitignore.io/api/xcode,swift,objective-c,macos
+
+### Xcode ###
+reated by https://www.gitignore.io/api/objective-c
+
+### Objective-C ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+".gitignore" 159L, 3449C
+
