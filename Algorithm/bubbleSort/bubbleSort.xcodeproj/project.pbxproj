@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		735D7A5F1E111140008758BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D7A5E1E111140008758BB /* main.m */; };
+		735D7A8D1E12215A008758BB /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D7A8C1E12215A008758BB /* BubbleSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		735D7A5B1E111140008758BB /* bubbleSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bubbleSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		735D7A5E1E111140008758BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		735D7A8B1E12215A008758BB /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		735D7A8C1E12215A008758BB /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				735D7A5E1E111140008758BB /* main.m */,
+				735D7A8B1E12215A008758BB /* BubbleSort.h */,
+				735D7A8C1E12215A008758BB /* BubbleSort.m */,
 			);
 			path = bubbleSort;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				735D7A5F1E111140008758BB /* main.m in Sources */,
+				735D7A8D1E12215A008758BB /* BubbleSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				735D7A641E111140008758BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
