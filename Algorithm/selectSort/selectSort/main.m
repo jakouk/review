@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SelectSort.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    // insert code here...
+    NSLog(@"Hello, World!");
+    NSArray *array = @[@"10",@"9",@"8",@"7",@"6",@"5",@"4",@"3",@"2",@"1"];
+    
+    SelectSort *sorted = [[SelectSort alloc] init];
+    array = [sorted selectSort:array];
+    
+    NSLog(@"After Sorted array = %@",array);
+    
     return 0;
 }
