@@ -14,25 +14,25 @@ int main(int argc, const char * argv[]) {
 
     //binaryTree
     BinaryTree *binaryTree = [[BinaryTree alloc] init];
-    Node *rootNode = [binaryTree createBinaryTree:@"ROOT"];
+    Node *rootNode = [binaryTree createBinaryTree:@"1"];
     
     Node *a = [[Node alloc] init];
-    a.data = @"A";
+    a.data = @"2";
     
     Node *b = [[Node alloc] init];
-    b.data = @"B";
+    b.data = @"3";
     
     Node *c = [[Node alloc] init];
-    c.data = @"C";
+    c.data = @"4";
     
     Node *d = [[Node alloc] init];
-    d.data = @"D";
+    d.data = @"5";
     
     Node *e = [[Node alloc] init];
-    e.data = @"E";
+    e.data = @"6";
     
     Node *f = [[Node alloc] init];
-    f.data = @"F";
+    f.data = @"7";
     
     //root
     rootNode.leftNode = a;
