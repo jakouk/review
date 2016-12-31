@@ -7,7 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Node.h"
 
 @interface BinarySearch : NSObject
+
+//seachCreateNode
+- (Node *)searchCreateNode:(NSString *)data;
+
+//searchNode
+-(Node *)searchNode:(Node *)rootNode findData:(NSString *)findData;
+
+//insertNode
+-(void)insertNode:(Node *)rootNode newNode:(Node *)newNode;
+
+//remove
+- (Node *)removeNode:(Node *)rootNode removeData:(NSString *)removeData;
+
+//printSearchTree
+- (void)printSearchTree:(Node *)rootNode;
 
 @end
