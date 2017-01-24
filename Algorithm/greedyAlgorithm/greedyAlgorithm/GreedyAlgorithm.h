@@ -10,6 +10,7 @@
 
 @interface GreedyAlgorithm : NSObject
 
+//greedyAlgorithm
 - (void)greedyAlgorithmMethod;
 
 @end

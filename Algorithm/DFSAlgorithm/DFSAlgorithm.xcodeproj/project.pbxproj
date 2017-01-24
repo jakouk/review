@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7337C5161E26191100355D19 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C5151E26191100355D19 /* MergeSort.m */; };
-		735D7A721E111150008758BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D7A711E111150008758BB /* main.m */; };
+		735321671E1E371700BCB921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 735321661E1E371700BCB921 /* main.m */; };
+		7353216F1E1E372B00BCB921 /* DfsAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7353216E1E1E372B00BCB921 /* DfsAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		735D7A6C1E111150008758BB /* CopyFiles */ = {
+		735321611E1E371700BCB921 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7337C5141E26191100355D19 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
-		7337C5151E26191100355D19 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
-		735D7A6E1E111150008758BB /* mergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		735D7A711E111150008758BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		735321631E1E371700BCB921 /* DFSAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFSAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		735321661E1E371700BCB921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7353216D1E1E372B00BCB921 /* DfsAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DfsAlgorithm.h; sourceTree = "<group>"; };
+		7353216E1E1E372B00BCB921 /* DfsAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DfsAlgorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		735D7A6B1E111150008758BB /* Frameworks */ = {
+		735321601E1E371700BCB921 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		735D7A651E111150008758BB = {
+		7353215A1E1E371700BCB921 = {
 			isa = PBXGroup;
 			children = (
-				735D7A701E111150008758BB /* mergeSort */,
-				735D7A6F1E111150008758BB /* Products */,
+				735321651E1E371700BCB921 /* DFSAlgorithm */,
+				735321641E1E371700BCB921 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		735D7A6F1E111150008758BB /* Products */ = {
+		735321641E1E371700BCB921 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				735D7A6E1E111150008758BB /* mergeSort */,
+				735321631E1E371700BCB921 /* DFSAlgorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		735D7A701E111150008758BB /* mergeSort */ = {
+		735321651E1E371700BCB921 /* DFSAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				735D7A711E111150008758BB /* main.m */,
-				7337C5141E26191100355D19 /* MergeSort.h */,
-				7337C5151E26191100355D19 /* MergeSort.m */,
+				735321661E1E371700BCB921 /* main.m */,
+				7353216D1E1E372B00BCB921 /* DfsAlgorithm.h */,
+				7353216E1E1E372B00BCB921 /* DfsAlgorithm.m */,
 			);
-			path = mergeSort;
+			path = DFSAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		735D7A6D1E111150008758BB /* mergeSort */ = {
+		735321621E1E371700BCB921 /* DFSAlgorithm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 735D7A751E111150008758BB /* Build configuration list for PBXNativeTarget "mergeSort" */;
+			buildConfigurationList = 7353216A1E1E371700BCB921 /* Build configuration list for PBXNativeTarget "DFSAlgorithm" */;
 			buildPhases = (
-				735D7A6A1E111150008758BB /* Sources */,
-				735D7A6B1E111150008758BB /* Frameworks */,
-				735D7A6C1E111150008758BB /* CopyFiles */,
+				7353215F1E1E371700BCB921 /* Sources */,
+				735321601E1E371700BCB921 /* Frameworks */,
+				735321611E1E371700BCB921 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = mergeSort;
-			productName = mergeSort;
-			productReference = 735D7A6E1E111150008758BB /* mergeSort */;
+			name = DFSAlgorithm;
+			productName = DFSAlgorithm;
+			productReference = 735321631E1E371700BCB921 /* DFSAlgorithm */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		735D7A661E111150008758BB /* Project object */ = {
+		7353215B1E1E371700BCB921 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = jakouk;
 				TargetAttributes = {
-					735D7A6D1E111150008758BB = {
+					735321621E1E371700BCB921 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 735D7A691E111150008758BB /* Build configuration list for PBXProject "mergeSort" */;
+			buildConfigurationList = 7353215E1E1E371700BCB921 /* Build configuration list for PBXProject "DFSAlgorithm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 735D7A651E111150008758BB;
-			productRefGroup = 735D7A6F1E111150008758BB /* Products */;
+			mainGroup = 7353215A1E1E371700BCB921;
+			productRefGroup = 735321641E1E371700BCB921 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				735D7A6D1E111150008758BB /* mergeSort */,
+				735321621E1E371700BCB921 /* DFSAlgorithm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		735D7A6A1E111150008758BB /* Sources */ = {
+		7353215F1E1E371700BCB921 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7337C5161E26191100355D19 /* MergeSort.m in Sources */,
-				735D7A721E111150008758BB /* main.m in Sources */,
+				735321671E1E371700BCB921 /* main.m in Sources */,
+				7353216F1E1E372B00BCB921 /* DfsAlgorithm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		735D7A731E111150008758BB /* Debug */ = {
+		735321681E1E371700BCB921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		735D7A741E111150008758BB /* Release */ = {
+		735321691E1E371700BCB921 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,14 +219,14 @@
 			};
 			name = Release;
 		};
-		735D7A761E111150008758BB /* Debug */ = {
+		7353216B1E1E371700BCB921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		735D7A771E111150008758BB /* Release */ = {
+		7353216C1E1E371700BCB921 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,25 +236,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		735D7A691E111150008758BB /* Build configuration list for PBXProject "mergeSort" */ = {
+		7353215E1E1E371700BCB921 /* Build configuration list for PBXProject "DFSAlgorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				735D7A731E111150008758BB /* Debug */,
-				735D7A741E111150008758BB /* Release */,
+				735321681E1E371700BCB921 /* Debug */,
+				735321691E1E371700BCB921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		735D7A751E111150008758BB /* Build configuration list for PBXNativeTarget "mergeSort" */ = {
+		7353216A1E1E371700BCB921 /* Build configuration list for PBXNativeTarget "DFSAlgorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				735D7A761E111150008758BB /* Debug */,
-				735D7A771E111150008758BB /* Release */,
+				7353216B1E1E371700BCB921 /* Debug */,
+				7353216C1E1E371700BCB921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 735D7A661E111150008758BB /* Project object */;
+	rootObject = 7353215B1E1E371700BCB921 /* Project object */;
 }

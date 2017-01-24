@@ -10,6 +10,7 @@
 
 @interface RepeatCharacter : NSObject
 
+//repeatCharacter
 - (void)repeatCharacter:(NSString *)generalString;
 
 @end
