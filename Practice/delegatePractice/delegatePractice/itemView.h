@@ -22,7 +22,8 @@
     
 }
 
-// <>이게 무엇인지 고민
+
+//클래스가 아니라 프로토콜이다. delegate라고 하는 프로퍼티이다.
 @property (nonatomic, weak) id <ItemViewDelegate> delegate;
 
 - (instancetype)initWithName:(NSString *)name title:(NSString *)title;
@@ -36,5 +37,6 @@
 @protocol ItemViewDelegate <NSObject>
 
 - (void)didSelectedItemView:(itemView *)itemView;
+- (void)willSelectedItemView:(itemView *)itemView;
 
 @end

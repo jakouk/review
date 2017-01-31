@@ -27,10 +27,14 @@
     
 }
 
--(void)didSelectedItemView:(itemView *)itemView {
-    NSLog(@"hello");
+- (void)didSelectedItemView:(itemView *)itemView {
+    NSLog(@"didSelectedItemView");
 }
 
+
+- (void)willSelectedItemView:(itemView *)itemView {
+    NSLog(@"willSelectedItemView");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

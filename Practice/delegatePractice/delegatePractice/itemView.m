@@ -47,8 +47,12 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 400, 400);
     
-    //버튼은 터치하면 onTouchupInsideItem이라는 메서드가 실행됨
+    
+    //버튼은 터치하고 때면 onTouchupInsideItem이라는 메서드가 실행됨
     [btn addTarget:self action:@selector(onTouchupInsideItem:) forControlEvents:UIControlEventTouchUpInside];
+    
+    //버튼 터치하는 순간 onTouchupDownItem이라는 매서드가 실행됨
+    [btn addTarget:self action:@selector(onTouchupDownItem:) forControlEvents:UIControlEventTouchDown];
     
     btn.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self addSubview:btn];
@@ -58,10 +62,18 @@
 
 - (void)onTouchupInsideItem:(UIButton *)sender {
     
+    //respondsToSelector는 메소드가 구현되어있는지 확인하는 메소드 이다. 
     if ([self.delegate respondsToSelector:@selector(didSelectedItemView:)]) {
         [self.delegate didSelectedItemView:self];
     }
 }
+
+-(void)onTouchupDownItem:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(willSelectedItemView:)]) {
+        [self.delegate willSelectedItemView:self];
+    }
+}
+
 
 //setter는 만들지 않음 .
 - (NSString *)getTitle {
