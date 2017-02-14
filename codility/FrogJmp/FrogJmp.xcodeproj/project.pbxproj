@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		735D7A851E11115D008758BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D7A841E11115D008758BB /* main.m */; };
-		73DE0B2A1E45A0A9008D30AE /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DE0B291E45A0A9008D30AE /* QuickSort.m */; };
+		73A7D2321E432B4000B04743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7D2311E432B4000B04743 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		735D7A7F1E11115D008758BB /* CopyFiles */ = {
+		73A7D22C1E432B4000B04743 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		735D7A811E11115D008758BB /* quickSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = quickSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		735D7A841E11115D008758BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		73DE0B281E45A0A9008D30AE /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
-		73DE0B291E45A0A9008D30AE /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		73A7D22E1E432B4000B04743 /* FrogJmp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FrogJmp; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A7D2311E432B4000B04743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		735D7A7E1E11115D008758BB /* Frameworks */ = {
+		73A7D22B1E432B4000B04743 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		735D7A781E11115D008758BB = {
+		73A7D2251E432B4000B04743 = {
 			isa = PBXGroup;
 			children = (
-				735D7A831E11115D008758BB /* quickSort */,
-				735D7A821E11115D008758BB /* Products */,
+				73A7D2301E432B4000B04743 /* FrogJmp */,
+				73A7D22F1E432B4000B04743 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		735D7A821E11115D008758BB /* Products */ = {
+		73A7D22F1E432B4000B04743 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				735D7A811E11115D008758BB /* quickSort */,
+				73A7D22E1E432B4000B04743 /* FrogJmp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		735D7A831E11115D008758BB /* quickSort */ = {
+		73A7D2301E432B4000B04743 /* FrogJmp */ = {
 			isa = PBXGroup;
 			children = (
-				735D7A841E11115D008758BB /* main.m */,
-				73DE0B281E45A0A9008D30AE /* QuickSort.h */,
-				73DE0B291E45A0A9008D30AE /* QuickSort.m */,
+				73A7D2311E432B4000B04743 /* main.m */,
 			);
-			path = quickSort;
+			path = FrogJmp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		735D7A801E11115D008758BB /* quickSort */ = {
+		73A7D22D1E432B4000B04743 /* FrogJmp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 735D7A881E11115D008758BB /* Build configuration list for PBXNativeTarget "quickSort" */;
+			buildConfigurationList = 73A7D2351E432B4000B04743 /* Build configuration list for PBXNativeTarget "FrogJmp" */;
 			buildPhases = (
-				735D7A7D1E11115D008758BB /* Sources */,
-				735D7A7E1E11115D008758BB /* Frameworks */,
-				735D7A7F1E11115D008758BB /* CopyFiles */,
+				73A7D22A1E432B4000B04743 /* Sources */,
+				73A7D22B1E432B4000B04743 /* Frameworks */,
+				73A7D22C1E432B4000B04743 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = quickSort;
-			productName = quickSort;
-			productReference = 735D7A811E11115D008758BB /* quickSort */;
+			name = FrogJmp;
+			productName = FrogJmp;
+			productReference = 73A7D22E1E432B4000B04743 /* FrogJmp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		735D7A791E11115D008758BB /* Project object */ = {
+		73A7D2261E432B4000B04743 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = jakouk;
 				TargetAttributes = {
-					735D7A801E11115D008758BB = {
+					73A7D22D1E432B4000B04743 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 735D7A7C1E11115D008758BB /* Build configuration list for PBXProject "quickSort" */;
+			buildConfigurationList = 73A7D2291E432B4000B04743 /* Build configuration list for PBXProject "FrogJmp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 735D7A781E11115D008758BB;
-			productRefGroup = 735D7A821E11115D008758BB /* Products */;
+			mainGroup = 73A7D2251E432B4000B04743;
+			productRefGroup = 73A7D22F1E432B4000B04743 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				735D7A801E11115D008758BB /* quickSort */,
+				73A7D22D1E432B4000B04743 /* FrogJmp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		735D7A7D1E11115D008758BB /* Sources */ = {
+		73A7D22A1E432B4000B04743 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735D7A851E11115D008758BB /* main.m in Sources */,
-				73DE0B2A1E45A0A9008D30AE /* QuickSort.m in Sources */,
+				73A7D2321E432B4000B04743 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		735D7A861E11115D008758BB /* Debug */ = {
+		73A7D2331E432B4000B04743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +173,7 @@
 			};
 			name = Debug;
 		};
-		735D7A871E11115D008758BB /* Release */ = {
+		73A7D2341E432B4000B04743 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,14 +213,14 @@
 			};
 			name = Release;
 		};
-		735D7A891E11115D008758BB /* Debug */ = {
+		73A7D2361E432B4000B04743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		735D7A8A1E11115D008758BB /* Release */ = {
+		73A7D2371E432B4000B04743 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,25 +230,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		735D7A7C1E11115D008758BB /* Build configuration list for PBXProject "quickSort" */ = {
+		73A7D2291E432B4000B04743 /* Build configuration list for PBXProject "FrogJmp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				735D7A861E11115D008758BB /* Debug */,
-				735D7A871E11115D008758BB /* Release */,
+				73A7D2331E432B4000B04743 /* Debug */,
+				73A7D2341E432B4000B04743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		735D7A881E11115D008758BB /* Build configuration list for PBXNativeTarget "quickSort" */ = {
+		73A7D2351E432B4000B04743 /* Build configuration list for PBXNativeTarget "FrogJmp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				735D7A891E11115D008758BB /* Debug */,
-				735D7A8A1E11115D008758BB /* Release */,
+				73A7D2361E432B4000B04743 /* Debug */,
+				73A7D2371E432B4000B04743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 735D7A791E11115D008758BB /* Project object */;
+	rootObject = 73A7D2261E432B4000B04743 /* Project object */;
 }
