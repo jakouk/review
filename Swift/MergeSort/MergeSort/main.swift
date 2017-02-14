@@ -12,27 +12,29 @@ var array : Array<Int> = [ 10, 9, 7, 8, 5, 6, 4, 3, 1, 2]
 
 func mergeSort<T : Integer>(arr : [T]) -> [T] {
     
-    let arrCount = arr.count
+    var unsortedArray = arr
+    let unsortedCount = unsortedArray.count
     
-    if (arrCount < 2) {
+    if (unsortedCount < 2) {
         return arr
     }
     
     var firstArray: [T] = [T]()
     var secondArray: [T] = [T]()
     
-    for i in 0..<arrCount {
-        if i < arrCount/2 {
-            firstArray.append(arr[i])
+    for i in 0..<unsortedCount {
+        
+        if i < unsortedCount/2 {
+            firstArray.append(unsortedArray.removeFirst())
         } else {
-            secondArray.append(arr[i])
+            secondArray.append(unsortedArray.removeFirst())
         }
     }
     
-    return mergeSortedCompareable(leftArray: mergeSort(arr: firstArray), rightArray: mergeSort(arr: secondArray))
+    return merge(leftArray: mergeSort(arr: firstArray), rightArray: mergeSort(arr: secondArray))
 }
 
-func mergeSortedCompareable<T : Integer>(leftArray: [T], rightArray: [T]) -> [T] {
+func merge<T : Integer>(leftArray: [T], rightArray: [T]) -> [T] {
     
     var sortedArray: [T] = [T]()
     var firstArray = leftArray
@@ -42,39 +44,30 @@ func mergeSortedCompareable<T : Integer>(leftArray: [T], rightArray: [T]) -> [T]
         
         if firstArray.count == 0 {
             
-            sortedArray.append(secondArray[0])
-            secondArray.remove(at: 0)
+            sortedArray.append(secondArray.removeFirst())
             
         } else if secondArray.count == 0 {
             
-            sortedArray.append(firstArray[0])
-            firstArray.remove(at: 0)
+            sortedArray.append(firstArray.removeFirst())
             
         } else {
             
             if firstArray[0] < secondArray[0] {
                 
-                sortedArray.append(firstArray[0])
-                firstArray.remove(at: 0)
+                sortedArray.append(firstArray.removeFirst())
                 
             } else if firstArray[0] > secondArray[0] {
                 
-                sortedArray.append(secondArray[0])
-                secondArray.remove(at: 0)
+                sortedArray.append(secondArray.removeFirst())
                 
             } else {
                 
-                sortedArray.append(firstArray[0])
-                sortedArray.append(secondArray[0])
-                firstArray.remove(at: 0)
-                secondArray.remove(at: 0)
+                sortedArray.append(firstArray.removeFirst())
+                sortedArray.append(secondArray.removeFirst())
                 
             }
-            
         }
     }
-   
-    
     
     return sortedArray
 }
